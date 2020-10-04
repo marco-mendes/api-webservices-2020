@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeter";
+
+package greet;
+
+// The greeting service definition.
+service CarrinhoCompras {
+  // Sends a greeting
+  rpc adicionarProduto (RequisicaoProduto) returns (RetornoRequisicaoProduto);
+  rpc removerProduto (RequisicaoProduto) returns (RetornoRequisicaoProduto);
+  
+}
+
+// O preço do produto é armazenado e processado no servidor.
+message RequisicaoProduto {
+  string codigo_cliente = 1;
+  string codigo_produto = 2;
+}
+
+message RetornoRequisicaoProduto {
+  string codigo_resposta = 1;
+}

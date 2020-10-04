@@ -1,0 +1,8 @@
+{
+    "posts": [
+      { "id": 1, "title": "HTTP-Introducao", "author": "João Silva" },
+      { "id": 2, "title": "HTTP-Avançado", "author": "João Silva" }
+    ],
+    "profile": { "name": "typicode" }
+  }
+  

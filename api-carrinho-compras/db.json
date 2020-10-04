@@ -1,0 +1,41 @@
+{
+  "carrinhos": [
+    {
+      "nome": "Meu carrinho de compras",
+      "id": 1
+    },
+    {
+      "nome": "Meu novo carrinho de compras",
+      "id": 2
+    }
+  ],
+  "livros": [
+    {
+      "titulo": "Introducao a API gRPC",
+      "autor": "João Silva",
+      "id": 1
+    },
+    {
+      "titulo": "Introducao a API REST",
+      "autor": "João Silva",
+      "id": 2
+    }
+  ],
+  "carrinholivros": [
+    {
+      "livroId": 2,
+      "carrinhoId": 1,
+      "id": 1
+    },
+    {
+      "livroId": 1,
+      "carrinhoId": 1,
+      "id": 2
+    },
+    {
+      "livroId": 1,
+      "carrinhoId": 2,
+      "id": 3
+    }
+  ]
+}

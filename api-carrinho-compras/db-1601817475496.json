@@ -1,0 +1,19 @@
+{
+  "carrinhos": [
+    {
+      "id": 1,
+      "nome": "Carrinho de compras 1"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "title": "HTTP-Introducao",
+      "author": "João Silva",
+      "carrinhoId": 1
+    }
+  ],
+  "profile": {
+    "name": "Carrinho de compras"
+  }
+}

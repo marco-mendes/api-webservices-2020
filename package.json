@@ -1,0 +1,13 @@
+{
+    "name": "Exemplos de API em Node",
+    "version": "1.0.0",
+    "description": "Aula PUC de API e WebServices",
+    "author": "renan",
+    "type": "module",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-graphql": "^0.11.0",
+        "graphql": "^15.3.0",
+        "json-server": "^0.16.1"
+    }
+}

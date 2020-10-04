@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { "id": 1, "title": "HTTP-Introducao", "authorId": 1 },
+      { "id": 1, "title": "HTTP-Avançado", "authorId": 2 }
+    ],
+    "authors": [
+      { "id":1, "name": "Joao" },
+      { "id":2, "name": "Maria" }
+    ]
+  }
+  
